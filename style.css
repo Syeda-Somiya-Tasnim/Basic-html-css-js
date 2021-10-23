@@ -1,0 +1,50 @@
+*
+{
+    padding: 0 ;
+    margin: 0;
+}
+#Heading1{
+    background-color: aqua;
+}
+#Heading2{
+    font-size: 70px;
+}
+.para{
+    font: 100px;
+    background-color:rebeccapurple;
+}
+.para,#Heading2{
+    color:blue ;
+}
+.box1{
+    display: inline-block;
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border: 5px indianred solid;
+}
+.box2{
+    display: inline-block;
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border: 5px indianred solid;
+}
+.box{
+    width: 50%;
+    height: 100px;
+}
+#box-1{
+    display: inline-block;
+    background-color: gray;
+    width: 50%;
+    height: 100px;
+    
+}
+#box-2{
+    display: inline-block;
+    background-color: gray;
+    width: 45%;
+    height: 80vh;
+    border: 5px indianred solid;
+}

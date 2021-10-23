@@ -1,0 +1,49 @@
+body
+{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.parants
+{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    background-color: indianred;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.child
+{
+    border:3px blue solid;
+    width: 10rem;
+    height: 10rem;
+    background-color: burlywood;
+    margin: 1rem;
+
+}
+.pos
+{
+    height: 100vh;
+    background-color:paleturquoise;
+}
+.box1
+{
+     background-color: pink;
+     height: 80%;
+     width: 80%;
+}
+.box2
+{   position: relative;
+    background-color: rgb(212, 39, 212);
+    height: 80%;
+    width: 80%;
+}
+.child_pos
+{ bottom: 0;
+    position: absolute;
+    background-color: rgb(173, 226, 112);;
+    height: 80%;
+    width: 80%;
+}
